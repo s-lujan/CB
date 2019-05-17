@@ -1,4 +1,9 @@
-//ME GUSTARÍA AJUSTARLO UN POQUITO MAS
+/******************************************************
+ALGORITMO DE BACKPROPAGATION
+*************************************************************/
+
+
+//ME GUSTARÍA AJUSTARLO UN POQUITO MAS (valores de n, B, etc)
 
 #include <iostream>
 #include <cmath>
@@ -14,7 +19,7 @@ const int C= 5;
 
 double x[A]={1, 0, 0.3, 0.9, 0.2}; //x[0]=1;
 double h[B];
-double o[C]; //o[0]=0 y y[0]= 0
+double o[C]; //o[0]=0 y y[0]=0 permanentemente ya que no se usan
 double y[C]={0, 0.3, 0.4, 0.6, 0.9}; 
 
 double w1[A][B];
